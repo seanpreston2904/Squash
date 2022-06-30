@@ -1,0 +1,1 @@
+export { IssueEntry } from './IssueEntry';
