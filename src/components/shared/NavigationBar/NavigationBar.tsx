@@ -14,12 +14,12 @@ export const NavigationBar: React.FunctionComponent = () => {
             <div className='grow flex space-x-4'>
                 <button className='flex p-2 space-x-2 my-auto'>
                     <HouseDoorFill className='text-gray-500 my-auto'/>
-                    <a className='text-gray-500 font-semibold'>Home</a>
+                    <a href="/" className='text-gray-500 font-semibold'>Home</a>
                 </button>
 
                 <button className='flex p-2 space-x-2 my-auto'>
                     <ExclamationCircleFill className='text-gray-500 my-auto'/>
-                    <a className='text-gray-500 font-semibold'>Tickets</a>
+                    <a href="/" className='text-gray-500 font-semibold'>Tickets</a>
                 </button>
             </div>
 
@@ -28,7 +28,7 @@ export const NavigationBar: React.FunctionComponent = () => {
                 <button><DoorOpenFill className='text-gray-500 text-2xl'/></button>
                 <button><GearFill className='text-gray-500 text-2xl'/></button>
                 
-                <img src={UserPhoto} className='w-12 rounded-full'/>
+                <img alt="User Photo" src={UserPhoto} className='w-12 rounded-full'/>
                 
             </div>
             
