@@ -12,9 +12,9 @@ export const IssueEntry: React.FunctionComponent = () => {
 
             <div className='flex space-x-1 my-auto'>
                 <div className='flex -space-x-4'>
-                    <img src={UserPhoto} className='z-20 w-8 rounded-full border-2 border-gray-200'/>
-                    <img src={UserPhoto} className='z-10 w-8 rounded-full border-2 border-gray-200'/>
-                    <img src={UserPhoto} className='z-0 w-8 rounded-full border-2 border-gray-200'/>
+                    <img alt='member1' src={UserPhoto} className='z-20 w-8 rounded-full border-2 border-gray-200'/>
+                    <img alt='member2' src={UserPhoto} className='z-10 w-8 rounded-full border-2 border-gray-200'/>
+                    <img alt='member3' src={UserPhoto} className='z-0 w-8 rounded-full border-2 border-gray-200'/>
                 </div>
                 <div className='w-[30px] h-[30px] bg-gray-300 flex rounded-full'><p className='mx-auto my-auto font-semibold text-gray-600'>+1</p></div>
             </div>
