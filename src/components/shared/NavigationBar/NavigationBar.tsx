@@ -28,7 +28,7 @@ export const NavigationBar: React.FunctionComponent = () => {
                 <button><DoorOpenFill className='text-gray-500 text-2xl'/></button>
                 <button><GearFill className='text-gray-500 text-2xl'/></button>
                 
-                <img alt="User Photo" src={UserPhoto} className='w-12 rounded-full'/>
+                <img alt="User" src={UserPhoto} className='w-12 rounded-full'/>
                 
             </div>
             
